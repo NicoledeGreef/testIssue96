@@ -1,0 +1,221 @@
+{
+    "name": "testIssue96",
+    "viewer": {
+        "type": "leaflet",
+        "location": {
+            "extent": [
+                -140.80078125000003,
+                61.62728646147466,
+                -108.72070312500001,
+                46.13417004624326
+            ],
+            "center": [
+                -124.76074218750003,
+                51.88072825385896
+            ],
+            "zoom": 6
+        },
+        "baseMap": "Streets"
+    },
+    "layers": [
+        {
+            "type": "vector",
+            "id": "vi-fc-silv-svw-fd",
+            "title": "vi_fc_silv_svw_FD",
+            "isVisible": true,
+            "isQueryable": true,
+            "opacity": 0.65,
+            "minScale": null,
+            "maxScale": null,
+            "titleAttribute": null,
+            "attributes": [
+                {
+                    "id": "ogc-fid0",
+                    "name": "ogc_fid0",
+                    "title": "ogc_fid0",
+                    "visible": true
+                },
+                {
+                    "id": "forest-cover-id",
+                    "name": "forest_cover_id",
+                    "title": "forest_cover_id",
+                    "visible": true
+                },
+                {
+                    "id": "standards-unit-id",
+                    "name": "standards_unit_id",
+                    "title": "standards_unit_id",
+                    "visible": true
+                },
+                {
+                    "id": "opening-id",
+                    "name": "opening_id",
+                    "title": "opening_id",
+                    "visible": true
+                },
+                {
+                    "id": "site-index",
+                    "name": "site_index",
+                    "title": "site_index",
+                    "visible": true
+                },
+                {
+                    "id": "s-free-growing-stems-per-ha",
+                    "name": "s_free_growing_stems_per_ha",
+                    "title": "s_free_growing_stems_per_ha",
+                    "visible": true
+                },
+                {
+                    "id": "s-species-code-1",
+                    "name": "s_species_code_1",
+                    "title": "s_species_code_1",
+                    "visible": true
+                },
+                {
+                    "id": "s-species-percent-1",
+                    "name": "s_species_percent_1",
+                    "title": "s_species_percent_1",
+                    "visible": true
+                },
+                {
+                    "id": "s-species-age-1",
+                    "name": "s_species_age_1",
+                    "title": "s_species_age_1",
+                    "visible": true
+                },
+                {
+                    "id": "s-species-height-1",
+                    "name": "s_species_height_1",
+                    "title": "s_species_height_1",
+                    "visible": true
+                },
+                {
+                    "id": "bgc-zone-code",
+                    "name": "bgc_zone_code",
+                    "title": "bgc_zone_code",
+                    "visible": true
+                },
+                {
+                    "id": "area-ha",
+                    "name": "area_ha",
+                    "title": "area_ha",
+                    "visible": true
+                }
+            ],
+            "queries": null,
+            "useClustering": false,
+            "dataUrl": "./layers/vi-fc-silv-svw-fd.geojson",
+            "legend": {
+                "line": true,
+                "title": null,
+                "fill": false
+            },
+            "style": {
+                "strokeColor": "red",
+                "strokeOpacity": 1,
+                "strokeWidth": 3,
+                "strokeCap": "round",
+                "strokeJoin": "round",
+                "fill": false,
+                "fillColor": "#3388ff",
+                "fillOpacity": 0.2
+            },
+            "legends": null
+        }
+    ],
+    "tools": [
+        {
+            "type": "toolbar",
+            "enabled": true
+        },
+        {
+            "type": "list-menu",
+            "enabled": true,
+            "title": "My SMK Application"
+        },
+        {
+            "type": "pan",
+            "enabled": true
+        },
+        {
+            "type": "zoom",
+            "enabled": true
+        },
+        {
+            "type": "about",
+            "enabled": false,
+            "title": "About My SMK Application",
+            "position": "list-menu",
+            "content": "<p>Welcome to SMK!</p><p>My Simple Map Kit application.</p>"
+        },
+        {
+            "type": "layers",
+            "enabled": true
+        },
+        {
+            "type": "baseMaps",
+            "enabled": false
+        },
+        {
+            "type": "identify",
+            "enabled": true,
+            "showPanel": true,
+            "showWidget": true,
+            "style": {
+                "strokeWidth": 1,
+                "strokeStyle": "1, 1",
+                "strokeColor": "#000000",
+                "strokeOpacity": 0.8,
+                "fillColor": "#000000",
+                "fillOpacity": 0.5,
+                "markerSize": [
+                    20,
+                    20
+                ],
+                "markerOffset": [
+                    10,
+                    0
+                ]
+            }
+        },
+        {
+            "type": "search",
+            "enabled": true
+        },
+        {
+            "type": "coordinate",
+            "enabled": false
+        },
+        {
+            "type": "measure",
+            "enabled": false
+        },
+        {
+            "type": "markup",
+            "enabled": false
+        },
+        {
+            "type": "scale",
+            "enabled": false
+        },
+        {
+            "type": "minimap",
+            "enabled": false
+        },
+        {
+            "type": "directions",
+            "enabled": false
+        },
+        {
+            "type": "location",
+            "enabled": false
+        },
+        {
+            "type": "select",
+            "enabled": false
+        }
+    ],
+    "version": "1.0.2",
+    "createdBy": "ndegreef",
+    "createdDate": "2021-01-14T23:56:40.351Z"
+}
