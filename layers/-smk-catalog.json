@@ -1,0 +1,83 @@
+{
+    "layers": [
+        {
+            "title": "vi_fc_silv_svw_FD",
+            "id": "vi-fc-silv-svw-fd",
+            "attributes": [
+                {
+                    "id": "ogc-fid0",
+                    "name": "ogc_fid0",
+                    "title": "ogc_fid0",
+                    "visible": true
+                },
+                {
+                    "id": "forest-cover-id",
+                    "name": "forest_cover_id",
+                    "title": "forest_cover_id",
+                    "visible": true
+                },
+                {
+                    "id": "standards-unit-id",
+                    "name": "standards_unit_id",
+                    "title": "standards_unit_id",
+                    "visible": true
+                },
+                {
+                    "id": "opening-id",
+                    "name": "opening_id",
+                    "title": "opening_id",
+                    "visible": true
+                },
+                {
+                    "id": "site-index",
+                    "name": "site_index",
+                    "title": "site_index",
+                    "visible": true
+                },
+                {
+                    "id": "s-free-growing-stems-per-ha",
+                    "name": "s_free_growing_stems_per_ha",
+                    "title": "s_free_growing_stems_per_ha",
+                    "visible": true
+                },
+                {
+                    "id": "s-species-code-1",
+                    "name": "s_species_code_1",
+                    "title": "s_species_code_1",
+                    "visible": true
+                },
+                {
+                    "id": "s-species-percent-1",
+                    "name": "s_species_percent_1",
+                    "title": "s_species_percent_1",
+                    "visible": true
+                },
+                {
+                    "id": "s-species-age-1",
+                    "name": "s_species_age_1",
+                    "title": "s_species_age_1",
+                    "visible": true
+                },
+                {
+                    "id": "s-species-height-1",
+                    "name": "s_species_height_1",
+                    "title": "s_species_height_1",
+                    "visible": true
+                },
+                {
+                    "id": "bgc-zone-code",
+                    "name": "bgc_zone_code",
+                    "title": "bgc_zone_code",
+                    "visible": true
+                },
+                {
+                    "id": "area-ha",
+                    "name": "area_ha",
+                    "title": "area_ha",
+                    "visible": true
+                }
+            ],
+            "dataUrl": "./layers/vi-fc-silv-svw-fd.geojson"
+        }
+    ]
+}
